@@ -1,6 +1,5 @@
 server:
-  port: 2333
-  address: 127.0.0.1
+  port: ${PORT:2333}
 
 lavalink:
   server:
@@ -17,3 +16,4 @@ lavalink:
   plugins:
     - dependency: "dev.lavalink.youtube:youtube-plugin:1.17.0"
       repository: "https://maven.lavalink.dev/releases"
+
